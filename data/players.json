@@ -1,0 +1,173 @@
+[
+  {
+    "id": "liuguoliang",
+    "name": "刘国梁",
+    "gender": "male",
+    "born": "1976年 · 河南新乡",
+    "bio": "中国第一位奥运会男单冠军，大满贯得主。退役后执教国家队，带领中国男队再创辉煌。",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Liu_Guoliang_ATTC2017.jpeg/330px-Liu_Guoliang_ATTC2017.jpeg",
+    "honors": { "olympic": "奥运2金", "world": "世锦赛7金", "cup": "世界杯2金" }
+  },
+  {
+    "id": "konglinghui",
+    "name": "孔令辉",
+    "gender": "male",
+    "born": "1975年 · 黑龙江哈尔滨",
+    "bio": "大满贯得主，2000年悉尼奥运会男单冠军，被称为乒乓王子。横拍弧圈结合快攻打法的代表人物。",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Kong_Linghui_2004.jpg/330px-Kong_Linghui_2004.jpg",
+    "honors": { "olympic": "奥运2金", "world": "世锦赛5金", "cup": "世界杯3金" }
+  },
+  {
+    "id": "malin",
+    "name": "马琳",
+    "gender": "male",
+    "born": "1980年 · 辽宁沈阳",
+    "bio": "2008年北京奥运会男单冠军，直板反胶打法集大成者。以发球和台内小球技术著称，被誉为直板之王。",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Ma_Lin_OQ_2012.jpg/330px-Ma_Lin_OQ_2012.jpg",
+    "honors": { "olympic": "奥运3金", "world": "世锦赛5金", "cup": "世界杯4金" }
+  },
+  {
+    "id": "wangliqin",
+    "name": "王励勤",
+    "gender": "male",
+    "born": "1978年 · 江苏苏州",
+    "bio": "三届世锦赛男单冠军（2001、2005、2007），以力量型横拍弧圈球著称，被誉为大力王。",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Wang_Liqin_OQ_2012.jpg/330px-Wang_Liqin_OQ_2012.jpg",
+    "honors": { "olympic": "奥运2金", "world": "世锦赛7金", "cup": "世界杯2金" }
+  },
+  {
+    "id": "wanghao",
+    "name": "王皓",
+    "gender": "male",
+    "born": "1983年 · 吉林长春",
+    "bio": "直板横打技术创始人，三届奥运会男单亚军。职业生涯共获18个世界冠军，现任男队主教练。",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Mondial_Ping_-_Men%27s_Singles_-_Final_-_Zhang_Jike_vs_Wang_Hao_-_03.jpg/330px-Mondial_Ping_-_Men%27s_Singles_-_Final_-_Zhang_Jike_vs_Wang_Hao_-_03.jpg",
+    "honors": { "olympic": "奥运2金", "world": "世锦赛8金", "cup": "世界杯6金" }
+  },
+  {
+    "id": "zhangjike",
+    "name": "张继科",
+    "gender": "male",
+    "born": "1988年 · 山东青岛",
+    "bio": "史上最快大满贯得主（445天），2012年伦敦奥运会男单冠军。以暴力反手拧拉闻名世界。",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Zhang_Jike_ATTC2017_18.jpeg/330px-Zhang_Jike_ATTC2017_18.jpeg",
+    "honors": { "olympic": "奥运3金", "world": "世锦赛7金", "cup": "世界杯5金" }
+  },
+  {
+    "id": "malong",
+    "name": "马龙",
+    "gender": "male",
+    "born": "1988年 · 辽宁鞍山",
+    "bio": "双圈大满贯得主，史上最伟大乒乓球运动员（GOAT）。奥运6金，世锦赛14金，被誉为六边形战士。",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Ma_Long_%282024%29.png",
+    "honors": { "olympic": "奥运6金", "world": "世锦赛14金", "cup": "世界杯11金" }
+  },
+  {
+    "id": "xuxin",
+    "name": "许昕",
+    "gender": "male",
+    "born": "1990年 · 江苏徐州",
+    "bio": "左手直板打法代表人物，以中远台对拉和神球著称。多次获得世界冠军，被誉为人民艺术家。",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Xu_Xin_WTTC2016_26.jpeg/330px-Xu_Xin_WTTC2016_26.jpeg",
+    "honors": { "olympic": "奥运2金", "world": "世锦赛6金", "cup": "世界杯4金" }
+  },
+  {
+    "id": "fanzhendong",
+    "name": "樊振东",
+    "gender": "male",
+    "born": "1997年 · 广东广州",
+    "bio": "2024年巴黎奥运会男单冠军，实力派横拍代表。以超强正手和全面技术统治赛场。",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/ITTF_World_Tour_2017_German_Open_Fan_Zhendong_03.jpg/330px-ITTF_World_Tour_2017_German_Open_Fan_Zhendong_03.jpg",
+    "honors": { "olympic": "奥运3金", "world": "世锦赛7金", "cup": "世界杯6金" }
+  },
+  {
+    "id": "wangchuqin",
+    "name": "王楚钦",
+    "gender": "male",
+    "born": "2000年 · 吉林吉林",
+    "bio": "新生代领军人物，左手横拍打法。2024年巴黎奥运会混双金牌得主，新科世界第一。",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Table_tennis_at_the_2018_Summer_Youth_Olympics_%E2%80%93_Men%27s_Singles_Gold_Medal_Match_068_%28cropped%29.jpg/330px-Table_tennis_at_the_2018_Summer_Youth_Olympics_%E2%80%93_Men%27s_Singles_Gold_Medal_Match_068_%28cropped%29.jpg",
+    "honors": { "olympic": "奥运2金", "world": "世锦赛5金", "cup": "世界杯2金" }
+  },
+  {
+    "id": "dengyaping",
+    "name": "邓亚萍",
+    "gender": "female",
+    "born": "1973年 · 河南郑州",
+    "bio": "初代大魔王，连续8年世界排名第一。四枚奥运金牌得主，中国乒乓球历史上最具统治力的女选手之一。",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/%E9%82%93%E4%BA%9A%E8%90%8D%E5%A5%B3%E5%A3%AB.png/330px-%E9%82%93%E4%BA%9A%E8%90%8D%E5%A5%B3%E5%A3%AB.png",
+    "honors": { "olympic": "奥运4金", "world": "世锦赛9金", "cup": "世界杯2金" }
+  },
+  {
+    "id": "wangnan",
+    "name": "王楠",
+    "gender": "female",
+    "born": "1978年 · 辽宁抚顺",
+    "bio": "大满贯得主，24个世界冠军。2000年悉尼奥运会女单冠军，以左手横拍全面型打法著称。",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/49/Wangnan_2001.jpg",
+    "honors": { "olympic": "奥运4金", "world": "世锦赛15金", "cup": "世界杯4金" }
+  },
+  {
+    "id": "zhangyining",
+    "name": "张怡宁",
+    "gender": "female",
+    "born": "1981年 · 北京",
+    "bio": "双圈大满贯得主，奥运4金。以防守反击和超强心理素质著称，被称为冷面大魔王。",
+    "image": "https://img.olympics.com/images/image/private/t_social_share_thumb/f_auto/primary/oqy1ctdytnfbzxsysmrk",
+    "honors": { "olympic": "奥运4金", "world": "世锦赛10金", "cup": "世界杯4金" }
+  },
+  {
+    "id": "lixiaoxia",
+    "name": "李晓霞",
+    "gender": "female",
+    "born": "1988年 · 辽宁鞍山",
+    "bio": "大满贯得主，2012年伦敦奥运会女单冠军。以力量型弧圈球打法著称，被称为李大锤。",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Mondial_Ping_-_Women%27s_Singles_-_Final_-_Li_Xiaoxia.jpg/330px-Mondial_Ping_-_Women%27s_Singles_-_Final_-_Li_Xiaoxia.jpg",
+    "honors": { "olympic": "奥运3金", "world": "世锦赛7金", "cup": "世界杯4金" }
+  },
+  {
+    "id": "dingning",
+    "name": "丁宁",
+    "gender": "female",
+    "born": "1990年 · 黑龙江大庆",
+    "bio": "大满贯得主，2016年里约奥运会女单冠军。左手横拍打法，以顽强意志和旋转著称。",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Mondial_Ping_-Women%27s_Singles_-_Quarterfinal_-_Ding_Ning-Ri_Myong_Sun_-_17.jpg/330px-Mondial_Ping_-Women%27s_Singles_-_Quarterfinal_-_Ding_Ning-Ri_Myong_Sun_-_17.jpg",
+    "honors": { "olympic": "奥运3金", "world": "世锦赛9金", "cup": "世界杯4金" }
+  },
+  {
+    "id": "liushiwen",
+    "name": "刘诗雯",
+    "gender": "female",
+    "born": "1991年 · 辽宁抚顺",
+    "bio": "2019年世锦赛女单冠军，世界杯五冠王（历史第一）。以速度型近台快攻著称。",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Mondial_Ping_-_Women%27s_Doubles_-_Final_-_10.jpg/330px-Mondial_Ping_-_Women%27s_Doubles_-_Final_-_10.jpg",
+    "honors": { "olympic": "奥运1金", "world": "世锦赛7金", "cup": "世界杯5金" }
+  },
+  {
+    "id": "chenmeng",
+    "name": "陈梦",
+    "gender": "female",
+    "born": "1994年 · 山东青岛",
+    "bio": "2020年东京奥运会女单冠军，奥运4金。以扎实的相持能力和全面技术著称，中生代领军人物。",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Chen_Meng.png/330px-Chen_Meng.png",
+    "honors": { "olympic": "奥运4金", "world": "世锦赛3金", "cup": "世界杯3金" }
+  },
+  {
+    "id": "sunyingsha",
+    "name": "孙颖莎",
+    "gender": "female",
+    "born": "2000年 · 河北石家庄",
+    "bio": "新生代领军人，世界排名第一。2024年巴黎奥运会混双金牌、女单银牌。以全面技术和超强心理素质著称。",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Sun_Yingsha.png/330px-Sun_Yingsha.png",
+    "honors": { "olympic": "奥运3金", "world": "世锦赛5金", "cup": "世界杯2金" }
+  },
+  {
+    "id": "wangmanyu",
+    "name": "王曼昱",
+    "gender": "female",
+    "born": "1999年 · 黑龙江齐齐哈尔",
+    "bio": "2021年世锦赛女单冠军，奥运2金。身高臂长，以反手拧拉和攻防转换能力著称。",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Wang_Manyu_ATTC2017_2.jpeg/330px-Wang_Manyu_ATTC2017_2.jpeg",
+    "honors": { "olympic": "奥运2金", "world": "世锦赛4金", "cup": "世界杯2金" }
+  }
+]

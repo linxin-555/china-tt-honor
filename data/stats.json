@@ -1,0 +1,29 @@
+{
+  "olympicMedals": [
+    { "year": "1996", "event": "亚特兰大", "gold": 4, "silver": 3, "bronze": 1, "total": 8, "rank": "第1" },
+    { "year": "2000", "event": "悉尼", "gold": 4, "silver": 3, "bronze": 1, "total": 8, "rank": "第1" },
+    { "year": "2004", "event": "雅典", "gold": 3, "silver": 1, "bronze": 2, "total": 6, "rank": "第1" },
+    { "year": "2008", "event": "北京", "gold": 4, "silver": 2, "bronze": 2, "total": 8, "rank": "第1" },
+    { "year": "2012", "event": "伦敦", "gold": 4, "silver": 2, "bronze": 0, "total": 6, "rank": "第1" },
+    { "year": "2016", "event": "里约", "gold": 4, "silver": 2, "bronze": 0, "total": 6, "rank": "第1" },
+    { "year": "2021", "event": "东京", "gold": 4, "silver": 3, "bronze": 0, "total": 7, "rank": "第1" },
+    { "year": "2024", "event": "巴黎", "gold": 5, "silver": 1, "bronze": 0, "total": 6, "rank": "第1" }
+  ],
+  "goatRanking": [
+    { "rank": 1, "name": "马龙", "olympic": 6, "world": 14, "cup": 11, "total": 31 },
+    { "rank": 2, "name": "王楠", "olympic": 4, "world": 15, "cup": 4, "total": 23 },
+    { "rank": 3, "name": "张怡宁", "olympic": 4, "world": 10, "cup": 4, "total": 18 },
+    { "rank": 4, "name": "王皓", "olympic": 2, "world": 8, "cup": 6, "total": 16 },
+    { "rank": 5, "name": "丁宁", "olympic": 3, "world": 9, "cup": 4, "total": 16 },
+    { "rank": 6, "name": "樊振东", "olympic": 3, "world": 7, "cup": 6, "total": 16 },
+    { "rank": 7, "name": "邓亚萍", "olympic": 4, "world": 9, "cup": 2, "total": 15 },
+    { "rank": 8, "name": "张继科", "olympic": 3, "world": 7, "cup": 5, "total": 15 },
+    { "rank": 9, "name": "李晓霞", "olympic": 3, "world": 7, "cup": 4, "total": 14 },
+    { "rank": 10, "name": "刘诗雯", "olympic": 1, "world": 7, "cup": 5, "total": 13 },
+    { "rank": 11, "name": "马琳", "olympic": 3, "world": 5, "cup": 4, "total": 12 },
+    { "rank": 12, "name": "王励勤", "olympic": 2, "world": 7, "cup": 2, "total": 11 },
+    { "rank": 13, "name": "孔令辉", "olympic": 2, "world": 5, "cup": 3, "total": 10 },
+    { "rank": 14, "name": "陈梦", "olympic": 4, "world": 3, "cup": 3, "total": 10 },
+    { "rank": 15, "name": "孙颖莎", "olympic": 3, "world": 5, "cup": 2, "total": 10 }
+  ]
+}

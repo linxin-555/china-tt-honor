@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="中国乒乓球队荣誉殿堂 - 展示近30年国乒辉煌成就，涵盖19位主力球员、奥运/世锦赛/世界杯冠军数据、完整荣誉时间线">
+    <meta property="og:title" content="中国乒乓球队 · 荣誉殿堂">
+    <meta property="og:description" content="近30年国乒荣誉全景：37枚奥运金牌，158枚世锦赛金牌，117位世界冠军，19位传奇球员">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/5/51/Ma_Long_%282024%29.png">
+    <meta property="og:image:width" content="400">
+    <meta property="og:image:height" content="400">
+    <meta itemprop="name" content="中国乒乓球队 · 荣誉殿堂">
+    <meta itemprop="description" content="近30年国乒荣誉全景：37枚奥运金牌，158枚世锦赛金牌，19位传奇球员">
+    <meta itemprop="image" content="https://upload.wikimedia.org/wikipedia/commons/5/51/Ma_Long_%282024%29.png">
+    <title>中国乒乓球队 · 荣誉殿堂</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%23C41E1E'/><text x='16' y='22' text-anchor='middle' font-size='18' fill='white'>🏓</text></svg>">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <!-- 导航栏 -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-icon">&#127922;</span>
+                <span class="logo-text">中国乒乓球队</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="菜单">&#9776;</button>
+            <div class="nav-search" id="navSearch">
+                <input type="text" class="search-input" id="searchInput" placeholder="搜索球员、赛事...">
+                <span class="search-icon">&#128269;</span>
+                <div class="search-results" id="searchResults"></div>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#overview" class="nav-link">球队概况</a></li>
+                <li><a href="#players" class="nav-link">主力球员</a></li>
+                <li><a href="#timeline" class="nav-link">荣誉时间线</a></li>
+                <li><a href="#stats" class="nav-link">数据统计</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">中国乒乓球队</h1>
+            <p class="hero-subtitle">China Table Tennis Team · 国球荣耀</p>
+            <div class="hero-stats-bar">
+                <div class="hero-stat">
+                    <span class="hero-stat-num"><%= stats.olympicGold %></span>
+                    <span class="hero-stat-label">奥运金牌</span>
+                </div>
+                <div class="hero-stat">
+                    <span class="hero-stat-num"><%= stats.worldGold %></span>
+                    <span class="hero-stat-label">世锦赛金牌</span>
+                </div>
+                <div class="hero-stat">
+                    <span class="hero-stat-num"><%= stats.cupGold %></span>
+                    <span class="hero-stat-label">世界杯金牌</span>
+                </div>
+                <div class="hero-stat">
+                    <span class="hero-stat-num"><%= stats.worldChampions %></span>
+                    <span class="hero-stat-label">世界冠军</span>
+                </div>
+            </div>
+            <a href="#overview" class="hero-scroll">&#8595; 向下探索</a>
+        </div>
+    </section>
+
+    <!-- 球队概况 -->
+    <section class="section" id="overview">
+        <div class="container">
+            <h2 class="section-title">球队概况</h2>
+            <p class="section-subtitle">半个多世纪的辉煌，世界乒坛的绝对王者</p>
+            <div class="overview-content">
+                <div class="overview-text">
+                    <p>中国乒乓球队成立于1952年，是中国体育的"梦之队"。自容国团1959年夺得新中国第一个世界冠军以来，中国乒乓球队始终屹立于世界乒坛之巅。</p>
+                    <p>近三十年来，中国乒乓球队历经多次技术变革——从38mm小球到40mm大球、从有机胶水到无机胶水、从赛璐珞到 ABS 塑料球——始终保持着绝对的统治力。团队在奥运会、世锦赛、世界杯三大赛中屡创佳绩，多次实现金牌包揽。</p>
+                    <p>截至2024年巴黎奥运会，中国乒乓球队累计获得 <strong><%= stats.olympicGold %>枚奥运金牌</strong>、<strong><%= stats.worldGold %>枚世锦赛金牌</strong>、<strong><%= stats.cupGold %>枚世界杯金牌</strong>，培养出 <strong><%= stats.worldChampions %>位世界冠军</strong>。在已举办的十届奥运会乒乓球项目中，中国队八次实现金牌总数第一，六次包揽全部金牌。</p>
+                </div>
+                <div class="overview-stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-card-icon olympic">&#9733;</div>
+                        <div class="stat-card-num"><%= stats.olympicGold %></div>
+                        <div class="stat-card-label">奥运金牌</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-card-icon world">&#127942;</div>
+                        <div class="stat-card-num"><%= stats.worldGold %></div>
+                        <div class="stat-card-label">世锦赛金牌</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-card-icon cup">&#127944;</div>
+                        <div class="stat-card-num"><%= stats.cupGold %></div>
+                        <div class="stat-card-label">世界杯金牌</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-card-icon champion">&#127942;</div>
+                        <div class="stat-card-num"><%= stats.worldChampions %></div>
+                        <div class="stat-card-label">世界冠军</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-card-icon medal">&#9679;</div>
+                        <div class="stat-card-num"><%= stats.totalOlympicMedals %></div>
+                        <div class="stat-card-label">奥运奖牌总数</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-card-icon streak">&#9824;</div>
+                        <div class="stat-card-num"><%= stats.sweepCount %></div>
+                        <div class="stat-card-label">次包揽奥运金牌</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 主力球员 -->
+    <section class="section section-dark" id="players">
+        <div class="container">
+            <h2 class="section-title">主力球员 · 群星闪耀</h2>
+            <p class="section-subtitle">近三十年核心球员，每一位都是时代的传奇</p>
+
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all">全部</button>
+                <button class="filter-btn" data-filter="male">男队</button>
+                <button class="filter-btn" data-filter="female">女队</button>
+            </div>
+
+            <div class="players-grid" id="playersGrid">
+                <% players.forEach(function(p) { %>
+                <div class="player-card" data-gender="<%= p.gender %>" data-id="<%= p.id %>">
+                    <div class="player-img">
+                        <div class="player-initials"><%= p.name.split('').join('<br>') %></div>
+                        <img src="<%= p.image %>" alt="<%= p.name %>" onerror="this.style.display='none'">
+                    </div>
+                    <div class="player-info">
+                        <h3 class="player-name"><%= p.name %></h3>
+                        <span class="player-born"><%= p.born %></span>
+                        <p class="player-bio"><%= p.bio %></p>
+                        <div class="player-honors">
+                            <span class="honor-tag olympic-tag"><%= p.honors.olympic %></span>
+                            <span class="honor-tag world-tag"><%= p.honors.world %></span>
+                            <span class="honor-tag cup-tag"><%= p.honors.cup %></span>
+                        </div>
+                    </div>
+                </div>
+                <% }); %>
+            </div>
+        </div>
+    </section>
+
+    <!-- 荣誉时间线 -->
+    <section class="section" id="timeline">
+        <div class="container">
+            <h2 class="section-title">荣誉时间线</h2>
+            <p class="section-subtitle">1995 — 2025 · 近三十年光辉历程</p>
+
+            <div class="timeline-filter">
+                <button class="timeline-filter-btn active" data-filter="all">全部</button>
+                <button class="timeline-filter-btn" data-filter="olympic">奥运会</button>
+                <button class="timeline-filter-btn" data-filter="world">世锦赛</button>
+                <button class="timeline-filter-btn" data-filter="asian">亚运会</button>
+            </div>
+
+            <div class="timeline" id="timelineContainer">
+                <% timeline.forEach(function(t) { %>
+                <div class="timeline-item" data-category="<%= t.category %>">
+                    <div class="timeline-dot <%= t.category === 'olympic' && t.year === '2008' || t.category === 'olympic' && t.year === '2024' ? 'olympic-gold' : '' %>"></div>
+                    <div class="timeline-date"><%= t.year %></div>
+                    <div class="timeline-content">
+                        <h3><%= t.title %></h3>
+                        <p><%= t.description %></p>
+                    </div>
+                </div>
+                <% }); %>
+            </div>
+        </div>
+    </section>
+
+    <!-- 数据统计 -->
+    <section class="section section-dark" id="stats">
+        <div class="container">
+            <h2 class="section-title">数据统计</h2>
+            <p class="section-subtitle">历届奥运奖牌 · 球员荣誉排行</p>
+
+            <div class="stats-tabs">
+                <button class="stats-tab active" data-tab="olympic-medals">奥运奖牌</button>
+                <button class="stats-tab" data-tab="goat-ranking">GOAT 排行</button>
+                <button class="stats-tab" data-tab="charts">可视化图表</button>
+            </div>
+
+            <div class="stats-panel active" id="tab-olympic-medals">
+                <div class="table-wrapper">
+                    <table class="stats-table">
+                        <thead>
+                            <tr>
+                                <th>年份</th>
+                                <th>赛事</th>
+                                <th>金牌</th>
+                                <th>银牌</th>
+                                <th>铜牌</th>
+                                <th>总计</th>
+                                <th>金牌榜</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <% statsData.olympicMedals.forEach(function(m) { %>
+                            <tr>
+                                <td><%= m.year %></td>
+                                <td><%= m.event %></td>
+                                <td><%= m.gold %></td>
+                                <td><%= m.silver %></td>
+                                <td><%= m.bronze %></td>
+                                <td><%= m.total %></td>
+                                <td><%= m.rank %></td>
+                            </tr>
+                            <% }); %>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="2"><strong>合计</strong></td>
+                                <td><strong><%= statsData.olympicMedals.reduce(function(s, m) { return s + m.gold; }, 0) %></strong></td>
+                                <td><strong><%= statsData.olympicMedals.reduce(function(s, m) { return s + m.silver; }, 0) %></strong></td>
+                                <td><strong><%= statsData.olympicMedals.reduce(function(s, m) { return s + m.bronze; }, 0) %></strong></td>
+                                <td><strong><%= statsData.olympicMedals.reduce(function(s, m) { return s + m.total; }, 0) %></strong></td>
+                                <td></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+
+            <div class="stats-panel" id="tab-goat-ranking">
+                <div class="table-wrapper">
+                    <table class="stats-table">
+                        <thead>
+                            <tr>
+                                <th>排名</th>
+                                <th>球员</th>
+                                <th>奥运金牌</th>
+                                <th>世锦赛金牌</th>
+                                <th>世界杯金牌</th>
+                                <th>三大赛总计</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <% statsData.goatRanking.forEach(function(g) { %>
+                            <tr>
+                                <td><%= g.rank %></td>
+                                <td><%= g.name %></td>
+                                <td><%= g.olympic %></td>
+                                <td><%= g.world %></td>
+                                <td><%= g.cup %></td>
+                                <td><%= g.total %></td>
+                            </tr>
+                            <% }); %>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="stats-panel" id="tab-charts">
+                <div class="charts-grid">
+                    <div class="chart-card">
+                        <h3 class="chart-title">历届奥运奖牌分布</h3>
+                        <div class="chart-container" id="chartOlympic"></div>
+                    </div>
+                    <div class="chart-card">
+                        <h3 class="chart-title">球员三大赛冠军 TOP 10</h3>
+                        <div class="chart-container" id="chartGoat"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>&#127922; 中国乒乓球队 · 荣誉殿堂</h3>
+                    <p>弘扬国球精神，致敬每一份荣耀</p>
+                </div>
+                <div class="footer-links">
+                    <p>数据来源：国际乒联 (ITTF) · 国际奥委会 (IOC)</p>
+                    <p>参考来源：维基百科 · 百度百科 · 新华社</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 中国乒乓球队荣誉殿堂 | 非官方展示网站 | Powered by Node.js + Express</p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" title="回到顶部">&#8593;</button>
+
+    <!-- 图片放大 Modal -->
+    <div class="img-modal" id="imgModal" onclick="closeImgModal()">
+        <span class="img-modal-close" onclick="closeImgModal()">&times;</span>
+        <span class="img-modal-name" id="imgModalName"></span>
+        <img class="img-modal-content" id="imgModalContent" alt="放大图片">
+    </div>
+
+    <!-- 球员详情 Modal -->
+    <div class="detail-modal" id="detailModal">
+        <div class="detail-modal-overlay" onclick="closeDetailModal()"></div>
+        <div class="detail-modal-content">
+            <button class="detail-modal-close" onclick="closeDetailModal()">&times;</button>
+            <div class="detail-body" id="detailBody"></div>
+        </div>
+    </div>
+
+    <!-- 服务端注入初始数据，供前端 JS 使用 -->
+    <script>
+        window.__INITIAL_DATA__ = {
+            players: <%- JSON.stringify(players) %>,
+            timeline: <%- JSON.stringify(timeline) %>,
+            stats: <%- JSON.stringify(stats) %>,
+            statsData: <%- JSON.stringify(statsData) %>
+        };
+    </script>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
